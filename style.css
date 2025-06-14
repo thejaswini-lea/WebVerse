@@ -1,0 +1,147 @@
+html,
+body{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family: "Lato",sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+.pimg1{
+    background-image: url(images/img1.jpg);
+    min-height: 100%;
+    position: relative;
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.pimg2{
+    background-image: url(images/img2.jpg);
+    min-height: 400px;
+    position: relative;
+} 
+.pimg3{
+    background-image: url(images/img3.jpg);
+    min-height: 400px;
+    position: relative;
+} 
+.pimg4{
+    background-image: url(images/img4.jpg);
+    min-height: 400px;
+    position: relative;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4{
+    background-attachment: fixed;
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.textBg{
+    background: #fafafa;
+    color: rgb(12, 0, 12);
+    padding: 10px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.sectio-light{
+    background: #2e6799;
+    color: aliceblue;
+}        
+.section-dark{
+    background: #caebd6;
+    color: black;
+}
+.section-white{
+    background: #beeae5;
+    color: black;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #2e6799;padding: 0%;margin: 0%;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(10, 0, 0);
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    text-align:center;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+.navbar a:hover{
+    background-color: #499ec3;
+}
+.navbar li{
+    float: left;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2e6799;
+    margin:0px;
+    padding:0%;
+    position: relative;
+    top: 10px;
+}
+.plogo{
+    position: relative;
+    padding: 0px;
+    left: 0px;
+    margin: 0px;
+}
+.social{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social a{
+    font-size: 20px;
+    display: inline-block;
+    border:1px solid beige;
+    width: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+.sociala:hover{
+    background-color: antiquewhite;
+}
+.footer ul{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.copy-right{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer{
+    background-color: #666;
+    color: white;
+}
